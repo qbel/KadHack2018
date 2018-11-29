@@ -140,6 +140,7 @@
   
   <!-- Start your project here-->
     <div class="row">
+        <form id="" name="" action="" method="POST">
         <div class="modal fade" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -152,21 +153,21 @@
               <div class="modal-body mx-3">
                 <div class="md-form mb-5">
                   <i class="fa fa-pencil prefix grey-text"></i>
-                  <input type="text" id="" class="form-control validate">
+                  <input type="text" name="drug_name" class="form-control validate">
                   <label data-error="wrong" data-success="right" for="">Drug Name</label>
                 </div>
                 <div class="md-form mb-5">
                     <i class="fa fa-database prefix grey-text"></i>
-                    <input type="text" id="" class="form-control validate">
+                    <input type="text" name="quantity" class="form-control validate">
                     <label data-error="wrong" data-success="right" for="">Quantity</label>
                 </div>
-                <div class="md-form mb-5">
+                <!-- <div class="md-form mb-5">
                     <i class="fa fa-hospital-o prefix grey-text"></i>
                     <input type="text" id="" class="form-control validate">
                     <label data-error="wrong" data-success="right" for="">Hospital Name</label>
-                </div>
+                </div> -->
                 <div class="md-form mb-5">
-                    <select class="browser-default custom-select">
+                    <select class="browser-default custom-select" name="name">
                         <option selected>Hospital Name</option>
                         <option value="">One</option>
                         <option value="">Two</option>
@@ -175,22 +176,22 @@
                 </div>
                 <div class="md-form mb-5">
                     <i class="fa fa-users prefix grey-text"></i>
-                    <input type="text" id="" class="form-control validate">
+                    <input type="text" name="location" class="form-control validate">
                     <label data-error="wrong" data-success="right" for="">Location</label>
                     
                 </div>
                 <div class="md-form mb-5">
-                    <select class="browser-default custom-select">
+                    <select class="browser-default custom-select" name="lga">
                         <option selected>LGA</option>
                         <option value="">One</option>
                         <option value="">Two</option>
                         <option value="">Three</option>
                     </select>
                 </div>
-                <div class="md-form mb-5">
+                <!-- <div class="md-form mb-5">
                   <i class="fa fa-car prefix grey-text"></i>
                   <input type="text" id="" class="form-control validate">
-                  <label data-error="wrong" data-success="right" for="">LGA</label>
+                  <label data-error="wrong" data-success="right" for="">LGA</label> -->
                 </div>
               </div>
               <div class="modal-footer d-flex justify-content-center">
@@ -198,6 +199,7 @@
               </div>
             </div>
           </div>
+          </form>
         </div>
       </div>
     <h6 id="view" class="h6-responsive text-right font-weight-bold mt-4">Hello <span style="color:red">Admin Logged in</span></h6>
